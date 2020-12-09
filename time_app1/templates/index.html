@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali's first render template</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div id='label'>
+        <h4>The current time and date</h4>  <!--create a container to hold the label-->
+    
+        <div class='timestamp'> <!--Create another container to hold the time stamp info-->
+            <p>{{ date }}</p>
+            <p>{{ time }}</p>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,21 @@
+h4 {
+    color: solid red;  
+}
+
+
+#label {
+    height: 580px;
+    width: 580px;
+    border: 2px solid green;
+}
+
+.timestamp {
+    height: 580px;
+    width: 580px;
+    border: 2px solid blue;
+}
+
+.timestamp h1 {
+    color: hotpink;
+}
+/* This is just to check to see if the style sheet is linked to the static images in html page */
